@@ -16,7 +16,7 @@ There are two pages: A simple page with 5 background color and hex page that loo
 
 To get a local copy up and running follow these simple steps:
 
-1. Go to the [repository page](https://github.com/Gunjuzone/Color_Switcher/development_branch).
+1. Go to the [repository page](https://github.com/Gunjuzone/Color_Switcher/tree/development_branch).
 2. git clone the repository using git command `git clone <link>`.
 3. cd into the folder
 4. git checkout branchName (mobile-version) using git command `git checkout <branchName>`.
