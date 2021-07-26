@@ -19,9 +19,7 @@ ul {
 a {
   text-decoration: none;
 }
-/* h1, */
 h2,
-/* h3, */
 h4 {
   letter-spacing: 0.1rem;
   text-transform: capitalize;
@@ -29,58 +27,31 @@ h4 {
   margin-bottom: 0.75rem;
   font-family: 'Roboto', sans-serif;
 }
-/* h1 {
-  font-size: 3rem;
-} */
 h2 {
   font-size: 2rem;
 }
-/* h3 {
-  font-size: 1.25rem;
-} */
 h4 {
   font-size: 0.875rem;
 }
-/* p {
-  margin-bottom: 1.25rem;
-  color: hsl(210, 22%, 49%);
-} */
 
 @media screen and (min-width: 767px) {
-  /* h1 {
-    font-size: 4rem;
-  } */
   h2 {
     font-size: 2.5rem;
   }
-  /* h3 {
-    font-size: 1.75rem;
-  } */
   h4 {
     font-size: 1rem;
   }
   body {
     font-size: 1rem;
   }
-  /* h1, */
+
   h2,
-  /* h3, */
   h4 {
     line-height: 1;
   }
 }
 /*  global classes */
 
-/* section */
-.section {
-  padding: 5rem 0;
-}
-
-.section-center {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: 1170px;
-}
 @media screen and (min-width: 991px) {
   .section-center {
     width: 95vw;
@@ -98,7 +69,7 @@ Nav
 ===============
 */
 nav {
-  background: #fff;
+  background: rgb(172, 127, 127);
   height: 3rem;
   display: grid;
   align-items: center;
@@ -114,7 +85,8 @@ nav {
 }
 .nav-center h4 {
   margin-bottom: 0;
-  color: hsl(210, 22%, 49%);
+  color: #000;
+  font-size: 1.3rem;
 }
 .nav-links {
   display: flex;
@@ -122,13 +94,13 @@ nav {
 nav a {
   text-transform: capitalize;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: hsl(205, 86%, 17%);
   letter-spacing: 0.1rem;
   margin-right: 1rem;
 }
 nav a:hover {
-  color: hsl(210, 22%, 49%);
+  color: hsl(313, 78%, 44%);
 }
 /*
 =============== 
